@@ -1,0 +1,15 @@
+title: Statik
+features:
+  - customisable data model
+  - custom orm queries
+  - non-blog static sites
+  - hot reload server
+  - markdown
+  - custom taxonomies
+  - custom plugins
+  - template engine jinja
+  - lang python
+order: 1
+template-engine: Jinja2
+template-engine-url: http://jinja.pocoo.org/
+language: Python

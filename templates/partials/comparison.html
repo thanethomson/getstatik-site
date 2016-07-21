@@ -1,0 +1,44 @@
+<div class="comparison-table">
+  <table class="twelve columns">
+    <thead>
+      <tr>
+        <th class="feature">Feature</th>
+        {% for generator in generators %}
+          <th>{% if generator.url %}<a href="{{ generator.url }}">{% endif %}
+            {{ generator.title }}
+          {% if generator.url %}</a>{% endif %}</th>
+        {% endfor %}
+      </tr>
+    </thead>
+    <tbody>
+      {% for feature in features %}
+        <tr>
+          <td class="feature">
+            {% if feature.url %}<a href="{{ feature.url }}">{% endif %}
+              {{ feature.title }}
+            {% if feature.url %}</a>{% endif %}
+          </td>
+          {% for generator in generators %}
+            <td>
+              {% if feature in generator.features %}
+                <i class="fa fa-check-circle"></i>
+              {% endif %}
+            </td>
+          {% endfor %}
+        </tr>
+      {% endfor %}
+      <tr>
+        <td class="feature">Template engine</td>
+        {% for generator in generators %}
+          <td><a href="{{ generator.template_engine_url }}">{{ generator.template_engine }}</a></td>
+        {% endfor %}
+      </tr>
+      <tr>
+        <td class="feature">Written in</td>
+        {% for generator in generators %}
+          <td>{{ generator.language }}</td>
+        {% endfor %}
+      </tr>
+    </tbody>
+  </table>
+</div>

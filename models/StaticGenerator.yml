@@ -1,0 +1,7 @@
+title: String
+url: String
+features: GeneratorFeature[] -> generators
+order: Integer
+template-engine: String
+template-engine-url: String
+language: String

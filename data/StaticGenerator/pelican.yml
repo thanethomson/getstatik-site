@@ -1,0 +1,13 @@
+title: Pelican
+url: http://getpelican.com/
+features:
+  - hot reload server
+  - markdown
+  - rst
+  - custom plugins
+  - template engine jinja
+  - lang python
+order: 2
+template-engine: Jinja2
+template-engine-url: http://jinja.pocoo.org/
+language: Python

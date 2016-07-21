@@ -1,0 +1,23 @@
+{
+  "name": "getstatik.com",
+  "authors": [
+    "Thane Thomson <connect@thanethomson.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "skeleton": "skeleton-css#^2.0.4",
+    "jquery": "^3.0.0",
+    "font-awesome": "fontawesome#^4.6.3"
+  }
+}

@@ -1,0 +1,15 @@
+title: Hugo
+url: http://gohugo.io
+features:
+  - non-blog static sites
+  - hot reload server
+  - markdown
+  - rst
+  - custom taxonomies
+  - custom plugins
+  - template engine go
+  - lang go
+order: 4
+template-engine: html/template
+template-engine-url: https://golang.org/pkg/html/template/
+language: Go

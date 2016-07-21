@@ -1,0 +1,9 @@
+project-name: getstatik.com
+base-path: /
+context:
+  static:
+    page-title: Statik
+    site-description: >
+      Statik is a static web site generator aimed at software developers
+      that'll allow you to build much more than just blogs. Define your
+      own custom data model for your static site.

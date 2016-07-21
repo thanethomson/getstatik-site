@@ -1,0 +1,29 @@
+- pk: customisable data model
+  title: Fully customisable data model
+  url: https://github.com/thanethomson/statik/wiki/Models
+  order: 1
+- pk: custom orm queries
+  title: Custom ORM-style data queries
+  url: https://github.com/thanethomson/statik/wiki/Templating#dynamic-context-variables
+  order: 2
+- pk: non-blog static sites
+  title: Build complex, non-blog static sites
+  order: 3
+- pk: hot reload server
+  title: Built-in hot reload server for testing
+  order: 4
+- pk: markdown
+  title: Markdown support
+  url: https://en.wikipedia.org/wiki/Markdown
+  order: 5
+- pk: rst
+  title: reStructured Text support
+  url: https://en.wikipedia.org/wiki/ReStructuredText
+  order: 6
+- pk: custom taxonomies
+  title: Custom taxonomies
+  url: https://en.wikipedia.org/wiki/Taxonomy_(general)
+  order: 7
+- pk: custom plugins
+  title: Custom plugin support
+  order: 8

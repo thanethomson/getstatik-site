@@ -1,0 +1,6 @@
+path: /
+template: homepage
+context:
+  dynamic:
+    generators: session.query(StaticGenerator).order_by(StaticGenerator.order.asc()).all()
+    features: session.query(GeneratorFeature).order_by(GeneratorFeature.order.asc()).all()
