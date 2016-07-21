@@ -7,8 +7,6 @@ features:
   - rst
   - custom taxonomies
   - custom plugins
-  - template engine go
-  - lang go
 order: 4
 template-engine: html/template
 template-engine-url: https://golang.org/pkg/html/template/

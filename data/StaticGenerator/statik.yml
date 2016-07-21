@@ -7,8 +7,6 @@ features:
   - markdown
   - custom taxonomies
   - custom plugins
-  - template engine jinja
-  - lang python
 order: 1
 template-engine: Jinja2
 template-engine-url: http://jinja.pocoo.org/
